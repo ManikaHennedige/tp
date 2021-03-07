@@ -7,4 +7,6 @@ public class Delivery {
     private String weight;
     private ArrayList<Item> items;
 
+    
+
 }
