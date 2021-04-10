@@ -33,7 +33,7 @@ public class UiTest {
     @Test
     public void printDeliveries_message() {
         ui.showDeliveryDetails(0);
-        assertEquals("1001 [N] NTU Hall 1 Manika\n1: \nItem Number: 1\nItem Weight: 5",
+        assertEquals("-------------------------------------\n1001 [N] NTU Hall 1 Manika\n1: \nItem Number: 1\nItem Weight: 5",
                 outputStream.toString().trim().replace("\r",""));
     }
 
